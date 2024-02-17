@@ -1,12 +1,18 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatelessWidget{
+import 'menu_fragment.dart';
+
+class HomeScreen extends StatelessWidget {
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('CoDex'),
+        backgroundColor: Colors.orangeAccent,
       ),
+      drawer: const SideMenuDrawer(),
       body: Container(
         color: Colors.grey,
         child: const Center(
@@ -16,3 +22,5 @@ class HomeScreen extends StatelessWidget{
     );
   }
 }
+
+
