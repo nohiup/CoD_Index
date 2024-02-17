@@ -1,6 +1,6 @@
-# youtube_audio
+# Call Of Dragon Index
 
-Playing audio only of a Youtube video
+You can search all info for Call Of Dragon playing progress here
 
 ## Getting Started
 
